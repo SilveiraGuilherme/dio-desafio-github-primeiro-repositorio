@@ -1,2 +1,9 @@
 Link para download do Git: https://git-scm.com/downloads
 O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Passos para enviar arquivos para o GitHub:
+- git add . ou git add -A (Move os arquivos para unstage)
+- git commit -m "comentário do commit" (Comita os arquivos)
+- git push origin main (Envia todos os commits locais pra nuvem)
+
+*O comando git status mostra a situação em que o arquivo se encontra.
